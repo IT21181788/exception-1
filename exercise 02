@@ -1,0 +1,25 @@
+package exeption;
+import java.util.Scanner;
+public class errors {
+	public static void main(String[] args) {
+		Scanner inputA = new Scanner(System.in);
+		
+		try {
+			System.out.println("Enter value:");
+		int W = inputA.nextInt();
+		
+		// next value 
+		System.out.println("Enter value:");
+		int S = inputA.nextInt();
+		int Ans = W/S;
+		}
+		 
+		
+		catch(ArithmeticException e) {
+			System.out.println("Error has occurred! \n" + e);
+		}
+		
+	 
+		
+		
+		
